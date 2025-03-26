@@ -1,0 +1,8 @@
+FROM qwen2.5:7b
+
+# Metadata for the model
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER stop "<|im_end|>"
+PARAMETER stop "
